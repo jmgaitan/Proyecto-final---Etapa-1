@@ -15,10 +15,15 @@ El proyecto web a desarrollar debe tener una estructura HTML y clases de CSS que
 
 Es la home que se estuvo trabajando en clase. Sobre esa base, deberán adicionarse todos los elementos HTML que requieran o deseen y modificar los estilos CSS existentes (en archivos SCSS), con el fin de personalizar y mejorar el proyecto individual, teniendo en cuenta que se deben presentar los productos en formato de cards.
 CARDS
-Se deberá definir para cada card un diseño cuidado, moderno, funcional y agradable a la vista, presentando la información de forma clara. Deberá mostrar, como mínimo, la imagen del producto en un elemento <img>, título, precio, descripción corta y un link de comprar, que a futuro servirá para agregar el producto al carrito (no es un requisito de momento, si bien pueden agregar ya esta funcionalidad).
-Pueden mostrar en cada card más información y otros elementos (botones, etc.), los cuales pueden figurar de forma fija, o mediante algún tipo de interacción con la card. En este último caso, podrán mostrar dicha información y elementos en la misma card o en alguna ubicación en la misma página o en
-otros archivos HTML adicionales, siempre que sean archivos internos al proyecto, es decir, URLs relativas.
-Las cards deberán adecuarse a todas las resoluciones, modificando su composición interna (horizontal, con su imagen al costado o vertical, con la misma arriba o abajo) en los momentos en los que su espacio disponible se aproveche mejor así. Podrán mostrar más o menos información en distintas resoluciones, dejando a la vista en todo momento, como mínimo, los elementos definidos como obligatorios, pudiendo ocultar o mostrar los optativos, si así lo desean, en diferentes resoluciones.
+Se deberá definir para cada card un diseño cuidado, moderno, funcional y agradable a la vista, presentando la información de forma clara.
+Deberá mostrar, como mínimo, la imagen del producto en un elemento <img>, título, precio, descripción corta y un link de comprar, que a futuro servirá para agregar el producto al 
+carrito (no es un requisito de momento, si bien pueden agregar ya esta funcionalidad).
+Pueden mostrar en cada card más información y otros elementos (botones, etc.), los cuales pueden figurar de forma fija, o mediante algún tipo de interacción con la card.
+ En este último caso, podrán mostrar dicha información y elementos en la misma card o en alguna ubicación en la misma página o en otros archivos HTML adicionales,
+ siempre que sean archivos internos al proyecto, es decir, URLs relativas.
+Las cards deberán adecuarse a todas las resoluciones, modificando su composición interna (horizontal, con su imagen al costado o vertical, con la misma arriba o abajo)
+ en los momentos en los que su espacio disponible se aproveche mejor así. Podrán mostrar más o menos información en distintas resoluciones, dejando a la vista en todo momento,
+  como mínimo, los elementos definidos como obligatorios, pudiendo ocultar o mostrar los optativos, si así lo desean, en diferentes resoluciones.
 
 ***** alta.html *****
 
