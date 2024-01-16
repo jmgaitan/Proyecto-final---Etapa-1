@@ -1,0 +1,19 @@
+.footer {
+    background-color: $footer-and-header-background-color;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:  auto;
+}
+.footer-link{
+    color: $footer-and-header-link-color;
+}
+
+.link-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+

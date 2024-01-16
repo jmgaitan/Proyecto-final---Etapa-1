@@ -1,0 +1,17 @@
+header {
+    box-shadow: 0 4px 13px -3px rgba(0, 0, 0, 0.10196);
+    background-color: $footer-and-header-background-color;
+    display: flex;
+    padding: 5px;
+    height: 10%;
+}
+
+ul{
+     list-style-type: none;
+}
+   
+h2{
+    color: $footer-and-header-text;
+}
+
+

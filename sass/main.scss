@@ -1,0 +1,17 @@
+//sass-guidelin.es/es/#arquitectura
+
+//@import "./abstracts/";
+@import "./base/base";
+
+@import "./utilities/variables";
+@import "./utilities/mixins";
+
+//@import "./components/";
+
+@import "./layout/main-container";
+@import "./layout/footer";
+@import "./layout/header";
+
+
+//@import "./vendor/";
+
