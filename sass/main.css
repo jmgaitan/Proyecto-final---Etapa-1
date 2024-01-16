@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
   min-width: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -24,6 +27,10 @@ a {
   justify-content: space-between;
   width: auto;
 }
+.footer img {
+  height: 40x;
+  width: 40px;
+}
 
 .footer-link {
   color: #fff;
@@ -36,17 +43,62 @@ a {
 }
 
 header {
-  box-shadow: 0 4px 13px -3px rgba(0, 0, 0, 0.10196);
   background-color: #343541;
   display: flex;
-  padding: 5px;
-  height: 10%;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
 }
-
-ul {
-  list-style-type: none;
+header .logo-name {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: center;
 }
-
-h2 {
+header .logo-name h2 {
+  padding-left: 10px;
+  margin: 0px;
   color: #fff;
+}
+header .logo-name img {
+  width: 50px;
+}
+
+.dropdownmenu {
+  margin-bottom: 0rem;
+  height: -moz-max-content;
+  height: max-content;
+}
+.dropdownmenu ul {
+  list-style-type: none;
+  background: gray;
+  list-style: none;
+  width: 100%;
+}
+.dropdownmenu li {
+  float: left;
+  margin-left: 25px;
+}
+.dropdownmenu li:hover {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+.dropdownmenu li:hover a {
+  background: #fff;
+  color: #343541;
+}
+.dropdownmenu a {
+  color: #FFFFFF;
+  display: block;
+  font: bold 12px/20px sans-serif;
+  padding: 25px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.45s ease;
+  -webkit-transition: all 0.45s ease;
+  -moz-transition: all 0.45s ease;
+  -ms-transition: all 0.45s ease;
+  -o-transition: all 0.45s ease;
 }/*# sourceMappingURL=main.css.map */

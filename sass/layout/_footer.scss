@@ -1,14 +1,18 @@
 .footer {
-    background-color: $footer-and-header-background-color;
+    background-color: $footer-and-header-primary-color;
     padding: 10px;
     text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width:  auto;
+    img{
+        height: 40x;
+        width: 40px;
+    }
 }
 .footer-link{
-    color: $footer-and-header-link-color;
+    color: $footer-and-header-second-color;
 }
 
 .link-container{

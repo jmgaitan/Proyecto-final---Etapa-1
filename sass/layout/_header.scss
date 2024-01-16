@@ -1,17 +1,25 @@
 header {
-    box-shadow: 0 4px 13px -3px rgba(0, 0, 0, 0.10196);
-    background-color: $footer-and-header-background-color;
+    background-color: $footer-and-header-primary-color;
     display: flex;
-    padding: 5px;
-    height: 10%;
-}
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
 
-ul{
-     list-style-type: none;
-}
-   
-h2{
-    color: $footer-and-header-text;
-}
+.logo-name {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
 
+    justify-content: center;
+    h2{
+        padding-left: 10px;
+        margin: 0px;   
+        color: $footer-and-header-second-color; 
+        }
+        img {
+            width: 50px;   
+        }
+    }
 
+}

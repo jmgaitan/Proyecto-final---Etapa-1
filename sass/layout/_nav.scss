@@ -1,0 +1,45 @@
+
+
+.dropdownmenu {
+	margin-bottom: 0rem;
+	height: max-content;
+
+	ul {
+		list-style-type: none;
+		background: gray;
+	  	list-style: none;
+	  	width: 100%;
+	}
+  
+	li {
+		float: left;
+		margin-left: 25px;	  
+
+	  &:hover {
+		a {
+		  background: $footer-and-header-second-color;
+		  color: $footer-and-header-primary-color;
+		}
+  
+		opacity: 1;
+		top: 100%;
+		visibility: visible;
+	  }
+	}
+  
+	a {
+	  color: #FFFFFF;
+	  display: block;
+	  font: bold 12px/20px sans-serif;
+	  padding: 25px ;
+	  text-align: center;
+	  text-decoration: none;
+	  transition: all .45s ease;
+	  
+	  // Prefixes for different browsers
+	  -webkit-transition: all .45s ease;
+	  -moz-transition: all .45s ease;
+	  -ms-transition: all .45s ease;
+	  -o-transition: all .45s ease;
+	}
+  }
