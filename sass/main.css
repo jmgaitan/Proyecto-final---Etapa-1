@@ -20,23 +20,23 @@ a {
 
 .footer {
   background-color: #343541;
-  padding: 10px;
   text-align: center;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
   width: auto;
 }
-.footer img {
-  height: 40x;
-  width: 40px;
+.footer .footer-social {
+  flex: 1;
 }
-
-.footer-link {
+.footer img {
+  width: 30px;
+}
+.footer .footer-link {
   color: #fff;
 }
-
-.link-container {
+.footer .link-container {
   display: flex;
   flex-direction: column;
   justify-content: space-around;

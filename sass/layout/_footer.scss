@@ -1,16 +1,19 @@
 .footer {
     background-color: $footer-and-header-primary-color;
-    padding: 10px;
     text-align: center;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
     width:  auto;
-    img{
-        height: 40x;
-        width: 40px;
+    .footer-social{
+        flex: 1;
     }
-}
+    img{
+        width: 30px;
+    }
+
+
 .footer-link{
     color: $footer-and-header-second-color;
 }
@@ -21,3 +24,4 @@
     justify-content: space-around;
 }
 
+}
