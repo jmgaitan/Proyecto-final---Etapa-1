@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap");
 * {
   box-sizing: border-box;
   min-width: 0;
@@ -18,6 +19,107 @@ a {
   text-decoration: none;
 }
 
+p {
+  text-wrap: pretty;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.rubik-burned-regular {
+  font-family: "Rubik Burned", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.product-cards {
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.product-cards .card {
+  padding-left: 25px;
+}
+
+.us-page {
+  box-sizing: border-box;
+}
+.us-page .info {
+  border: #09f solid 20px;
+}
+.us-page section {
+  margin: 20px;
+  display: grid;
+  place-items: center;
+  padding: 25px;
+}
+.us-page section div, .us-page section img {
+  box-shadow: 0px 5px 15px rgba(0, 153, 255, 0.5098039216);
+}
+.us-page .img-content {
+  height: 350px;
+  width: 350px;
+  border-radius: 100%;
+}
+.us-page p {
+  font-size: 1.2rem;
+  text-wrap: balance;
+  height: auto;
+  width: 600px;
+  text-align: center;
+}
+.us-page .content-right {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  border-style: groove;
+  border-right: black 20px;
+}
+.us-page .content-right .img-content {
+  margin-left: 10%;
+}
+.us-page .content-right p {
+  padding: 20px;
+}
+.us-page .content-left {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  border-style: groove;
+  border-left: 5px;
+}
+.us-page .content-left .img-content {
+  margin-right: 10%;
+}
+.us-page .content-left p {
+  padding: 20px;
+}
+
+.title-page {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  border: #fff solid 25px;
+}
+
+.us-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(66, 104, 255);
+  border-top: 100px #09f solid;
+  border-top-left-radius: 1%;
+  border-top-right-radius: 1%;
+  border-top-width: 35px;
+  border-bottom: 100px #09f solid;
+  border-bottom-width: 35px;
+}
+
 .footer {
   background-color: #343541;
   text-align: center;
@@ -26,6 +128,7 @@ a {
   flex-direction: row;
   align-items: center;
   width: auto;
+  height: 100px;
 }
 .footer .footer-social {
   flex: 1;
@@ -35,6 +138,11 @@ a {
 }
 .footer .footer-link {
   color: #fff;
+}
+.footer p {
+  color: #fff;
+  text-justify: center;
+  text-wrap: balance;
 }
 .footer .link-container {
   display: flex;
@@ -53,16 +161,20 @@ header .logo-name {
   align-items: center;
   display: flex;
   flex-direction: row;
-  padding: 10px;
   justify-content: center;
 }
 header .logo-name h2 {
-  padding-left: 10px;
+  padding-left: 5%;
   margin: 0px;
   color: #fff;
 }
 header .logo-name img {
   width: 50px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
 }
 
 .dropdownmenu {
@@ -75,10 +187,11 @@ header .logo-name img {
   background: gray;
   list-style: none;
   width: 100%;
+  margin-left: 25px;
 }
 .dropdownmenu li {
   float: left;
-  margin-left: 25px;
+  margin-left: 0;
 }
 .dropdownmenu li:hover {
   opacity: 1;
@@ -92,7 +205,7 @@ header .logo-name img {
 .dropdownmenu a {
   color: #FFFFFF;
   display: block;
-  font: bold 12px/20px sans-serif;
+  font: bold 1rem/20px sans-serif;
   padding: 25px;
   text-align: center;
   text-decoration: none;

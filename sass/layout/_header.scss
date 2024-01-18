@@ -5,15 +5,16 @@ header {
     justify-content: space-between;
     align-items: center;
 
+
 .logo-name {
     align-items: center;
     display: flex;
     flex-direction: row;
-    padding: 10px;
-
     justify-content: center;
+
+
     h2{
-        padding-left: 10px;
+        padding-left: 5%;
         margin: 0px;   
         color: $footer-and-header-second-color; 
         }
@@ -22,4 +23,9 @@ header {
         }
     }
 
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
 }

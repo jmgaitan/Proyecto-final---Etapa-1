@@ -1,10 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Alta de Producto</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alta de Producto</title>
+        <link rel="stylesheet" href="sass/main.css">
+    </head>
 <body>
+    <header>
+        <div class="logo">
+            <a href="index.html" class="logo-name">
+                <img src="./images/logo-1.png" alt="logo" srcset="">
+                <h2>Juguetería Cósmica</h2>
+            </a>
+        </div>
+        <nav class="dropdownmenu">
+            <ul>
+                <li><a href="index.html" class="footer-link">Inicio</a></li>
+                <li><a href="nosotros.html" class="footer-link">Nosotros</a></li>
+                <li><a href="contacto.html" class="footer-link">Contacto</a></li>
+                <li><a href="alta.html" class="footer-link">Alta de Producto</a></li>
+            </ul>
+        </nav>   
+    </header>
+
     <h1>Alta de Producto</h1>
+   
+   
     <form action="destino_formulario.html" method="post">
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required>
@@ -41,5 +63,34 @@
 
         <input type="submit" value="Enviar">
     </form>
+
+    <footer class="footer">
+        <div>
+            <p>
+                © Juan Manuel Gaitan
+            </p>
+        </div>
+        <div class="footer-social">
+                <a href="https://github.com/jmgaitan">
+                    <img src="./images/icons/github-mark-white.svg" alt="Perfil de GitHub">
+                </a>
+                <a href="https://www.facebook.com/juanma.gaitan/">
+                    <img src="./images/icons/facebook-mark-white.svg" alt="Perfil de GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/jmgaitan93/">
+                    <img src="./images/icons/linkedin-mark-white.svg" alt="Perfil de GitHub">
+                </a>
+                <a href="https://twitter.com/GaitanJuanMa">
+                    <img src="./images/icons/x-mark-white.svg" alt="Perfil de GitHub">
+                </a>
+            <a href="https://www.instagram.com/gaitanjuanma/">
+                <img src="./images/icons/instagram-mark-white.svg" alt="Perfil de GitHub">
+            </a>
+        </div>
+        <span class="link-container">
+            <a href="/nosotros.html" class="footer-link" > Nosotros </a>
+            <a href="/contacto.html" class="footer-link" > Contacto </a>
+        </span>
+    </footer>
 </body>
 </html>

@@ -1,5 +1,3 @@
-
-
 .dropdownmenu {
 	margin-bottom: 0rem;
 	height: max-content;
@@ -9,11 +7,12 @@
 		background: gray;
 	  	list-style: none;
 	  	width: 100%;
+		margin-left: 25px;
 	}
   
 	li {
 		float: left;
-		margin-left: 25px;	  
+		margin-left: 0;	  
 
 	  &:hover {
 		a {
@@ -30,7 +29,7 @@
 	a {
 	  color: #FFFFFF;
 	  display: block;
-	  font: bold 12px/20px sans-serif;
+	  font: bold 1rem/20px sans-serif;
 	  padding: 25px ;
 	  text-align: center;
 	  text-decoration: none;
