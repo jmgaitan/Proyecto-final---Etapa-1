@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lemon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lemon&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   box-sizing: border-box;
   min-width: 0;
@@ -25,21 +26,61 @@ p {
   line-height: 1.5rem;
 }
 
-.rubik-burned-regular {
-  font-family: "Rubik Burned", system-ui;
-  font-weight: 400;
-  font-style: normal;
+h1 {
+  font-weight: 100;
+  font-style: italic;
+}
+
+p, a {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: oblique;
 }
 
 .product-cards {
-  padding: 1rem;
+  padding: 2rem;
   margin: 1rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  place-items: center;
+  gap: 16px;
 }
-.product-cards .card {
-  padding-left: 25px;
+
+.card {
+  width: 70%;
+  height: 100%;
+  border-radius: 8px;
+  border: 2px solid black;
+  align-items: center;
+  text-align: center;
+  margin-left: 10px;
+  background-color: #fff;
+  padding: 20px;
+  transition: all 0.9s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.card img {
+  height: 60%;
+  width: 60%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card .buy-link {
+  padding: 10px 20px;
+  background-image: linear-gradient(to right, #2b5876 0%, #4e4376 51%, #2b5876 100%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  visibility: hidden;
+  cursor: pointer;
+}
+.card:hover {
+  box-shadow: 25px 50px 150px #09f;
+}
+.card:hover .buy-link {
+  visibility: visible;
 }
 
 .us-page {
@@ -120,21 +161,76 @@ p {
   border-bottom-width: 35px;
 }
 
+h1 {
+  font-family: "Lemon", serif;
+  color: black;
+}
+
+.form-add {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 25px 100px rgba(0, 0, 0, 0.1);
+}
+.form-add label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.form-add input[type=text],
+.form-add input[type=email],
+.form-add input[type=number],
+.form-add input[type=file],
+.form-add textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.form-add input[type=checkbox] {
+  margin-top: 10px;
+}
+.form-add input[type=submit] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.form-add input[type=submit]:hover {
+  background-color: #0056b3;
+}
+.form-add textarea {
+  height: 100px;
+  resize: vertical;
+}
+
 .footer {
   background-color: #343541;
-  text-align: center;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
+  text-align: center;
   width: auto;
   height: 100px;
+}
+.footer div {
+  padding: 30px;
 }
 .footer .footer-social {
   flex: 1;
 }
 .footer img {
-  width: 30px;
+  width: 35px;
 }
 .footer .footer-link {
   color: #fff;
@@ -147,7 +243,8 @@ p {
 .footer .link-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 30px;
 }
 
 header {
@@ -173,6 +270,7 @@ header .logo-name img {
 }
 
 ul {
+  font-family: "Lemon", serif;
   margin: 0px;
   padding: 0px;
 }

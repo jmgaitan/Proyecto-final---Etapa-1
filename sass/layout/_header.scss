@@ -14,6 +14,7 @@ header {
 
 
     h2{
+        
         padding-left: 5%;
         margin: 0px;   
         color: $footer-and-header-second-color; 
@@ -26,6 +27,7 @@ header {
 }
 
 ul{
+    font-family: $h1-font;
     margin: 0px;
     padding: 0px;
 }
