@@ -180,6 +180,11 @@ h1 {
   }
 }
 
+.main_container-form h1 {
+  text-align: center;
+  padding: 10px;
+}
+
 .form-add {
   font-family: Arial, sans-serif;
   max-width: 600px;
@@ -240,7 +245,7 @@ h1 {
 .footer div {
   padding: 30px;
 }
-.footer .footer-social {
+.footer .icon-socialmedia {
   flex: 1;
 }
 .footer img {
@@ -254,32 +259,33 @@ h1 {
   text-justify: center;
   text-wrap: balance;
 }
-.footer .link-container {
+.footer .link__container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 30px;
+  align-items: center;
+  margin: 15px;
 }
 
-header {
+.header__container {
   background-color: #343541;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
 }
-header .logo-name {
+.header__container .logo-name {
   align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-header .logo-name h2 {
-  padding-left: 5%;
+.header__container .logo-name h2 {
+  padding-left: 1%;
   margin: 0px;
   color: #fff;
 }
-header .logo-name img {
+.header__container .logo-name img {
   width: 50px;
 }
 

@@ -10,7 +10,7 @@
     div{
         padding: 30px;
     }
-    .footer-social{
+    .icon-socialmedia{
         flex: 1;
     }
     
@@ -27,11 +27,12 @@
         text-wrap: balance;
     }
 
-.link-container{
+.link__container{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 30px;
+    align-items: center;
+    margin: 15px;
 }
 
 }

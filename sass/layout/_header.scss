@@ -1,4 +1,4 @@
-header {
+.header__container {
     background-color: $footer-and-header-primary-color;
     display: flex;
     flex-direction: row-reverse;
@@ -15,7 +15,7 @@ header {
 
     h2{
         
-        padding-left: 5%;
+        padding-left: 1%;
         margin: 0px;   
         color: $footer-and-header-second-color; 
         }

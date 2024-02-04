@@ -4,7 +4,7 @@ function addFooter() {
     footer.className = 'footer';
 
     const footerSocial = document.createElement('div');
-    footerSocial.className = 'footer-social';
+    footerSocial.className = 'icon-socialmedia';
     const socialLink = document.createElement('a');
     socialLink.href = 'https://github.com/jmgaitan';
     const socialImage = document.createElement('img');
@@ -15,7 +15,7 @@ function addFooter() {
     footer.appendChild(footerSocial);
 
     const linkContainer = document.createElement('span');
-    linkContainer.className = 'link-container';
+    linkContainer.className = 'link__container';
     const nosotrosLink = document.createElement('a');
     nosotrosLink.href = '/nosotros.html';
     nosotrosLink.className = 'footer-link';
